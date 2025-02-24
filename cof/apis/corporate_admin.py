@@ -31,6 +31,8 @@ from sqlalchemy import text,cast, String
 from sqlalchemy.orm.exc import NoResultFound
 from sqlalchemy.orm import aliased
 
+
+print("hello check silent reposetery ")
 corporate_api = Blueprint('corporate_api', __name__, url_prefix='/api/corporate/admin')
 
 # @corporate_api.route('/users', methods=['GET'])
